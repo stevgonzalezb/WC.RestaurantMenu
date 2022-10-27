@@ -1,11 +1,11 @@
 {
-  "name": "wc.restaurantMenu",
+  "name": "restaurant-menu",
   "version": "1.0.0",
   "description": "This is a base-standard web project because is always boring start from scratch :p",
   "main": "index.js",
   "scripts": {
     "deploy": "gh-pages -d dist",
-    "build": "webpack --config webpack.dev.config.js",
+    "build": "webpack --config webpack.config.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,7 +15,7 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/stevgonzalezb/WebComponents.HelloWorld/issues"
+    "url": "https://github.com/stevgonzalezb/WC.RestaurantMenu/issues"
   },
   "homepage": "https://github.com/stevgonzalezb/WC.RestaurantMenu",
   "devDependencies": {
